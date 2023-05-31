@@ -19,6 +19,5 @@ while True:
 			break
 		
 		f=open("cal.txt","a+")
-		#read = open("cal.txt","r").read().splitlines()
 		f.write(f"{cal}\n")
 		#print(f"{cal} = {str(r)}")
